@@ -1,0 +1,18 @@
+Accounts:
+    1010@192.168.1.50:
+        enabled = true
+        auth:
+            password = "1234"
+
+
+
+SIPSimpleSettings:
+    default_account = 1010@192.168.1.50
+    instance_id = "urn:uuid:7a03a0de-5cc6-4c4c-a3de-62e4ed798d0d"
+    audio:
+        alert_device =
+        input_device =
+        output_device =
+
+    video:
+        device =
